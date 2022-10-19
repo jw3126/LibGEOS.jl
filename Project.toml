@@ -9,6 +9,7 @@ Extents = "411431e0-e8b7-467b-b5e0-f676ba4f2910"
 GEOS_jll = "d604d12d-fa86-5845-992e-78dc15976526"
 GeoInterface = "cf35fbd7-0cd7-5166-be24-54bfbe79505f"
 GeoInterfaceRecipes = "0329782f-3d07-4b52-b9f6-d3137cf03c7a"
+TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 
 [compat]
 CEnum = "0.2, 0.3, 0.4"
@@ -16,6 +17,7 @@ Extents = "0.1.1"
 GEOS_jll = "3.11"
 GeoInterface = "1"
 GeoInterfaceRecipes = "1"
+TimerOutputs = ">= 0.5.21"
 julia = "1.6"
 
 [extras]

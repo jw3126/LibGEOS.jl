@@ -1,6 +1,7 @@
 using GeoInterface, Extents
 using Test, LibGEOS
 import Aqua
+import TimerOutputs
 
 version = LibGEOS.GEOSversion()
 @info "GEOS version $version"
@@ -21,5 +22,6 @@ end
     include("test_regressions.jl")
     include("test_invalid_geometry.jl")
     include("test_strtree.jl")
+    display(TimerOutputs.DEFAULT_TIMER)
     Aqua.test_all(LibGEOS)
 end
